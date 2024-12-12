@@ -1,0 +1,30 @@
+.accordion {
+    width: 500px;
+    border-radius: 5px;
+    margin: 10px auto;
+    overflow: hidden;
+  }
+  
+  .accordion-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .accordion-header:hover {
+    background-color: #e7e7e7;
+  }
+  
+  .accordion-toggle {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .accordion-body {
+    padding: 15px;
+    background-color: #fff;
+  }
+  
