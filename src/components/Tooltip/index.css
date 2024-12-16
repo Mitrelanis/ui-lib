@@ -2,7 +2,6 @@
   position: relative;
   display: inline-block;
   cursor: pointer;
-  margin: 10px;
 }
 
 .tooltip {
@@ -17,6 +16,7 @@
   opacity: 0;
   transition: opacity 0.2s;
   text-align: center;
+  text-wrap: wrap;
 }
 
 .tooltip-container:hover .tooltip {
@@ -26,7 +26,7 @@
 
 .tooltip-top {
   bottom: 100%;
-  left:40%;
+  left:30%;
   transform: translateX(-50%);
   margin-bottom: 8px;
 }

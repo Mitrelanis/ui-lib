@@ -5,12 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 80vw;
+  width: 90vw;
   display: flex;
-  margin-left: 10vw;
+  margin-left: 5vw;
+  margin-top: 2.5vh;
 }
 *{
   margin: 0;
   padding: 0;
 }
+#root {
+  width: 100%;
+}
+
 

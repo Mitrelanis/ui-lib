@@ -4,7 +4,7 @@ function Heading(props) {
 
   const Tag = `h${level}`;
 
-  return <Tag className={`typography typography-${level} ${className}`}>{children}</Tag>;
+  return <Tag className={`heading heading-${level} ${className}`}>{children}</Tag>;
 }
 
 export default Heading;
